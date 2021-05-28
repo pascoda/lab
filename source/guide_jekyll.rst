@@ -43,12 +43,12 @@ All relevant legal information can be found here
 
 Prerequisites
 =============
-We're using :manual:`Ruby <lang-ruby>` in the version 2.5.3:
+We're using :manual:`Ruby <lang-ruby>` in the version 2.7.2:
 
 ::
 
  [isabell@stardust ~]$ ruby -v
- ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+ ruby 2.7.2p137 (2020-10-01 revision 5445e04352) [x86_64-linux]
  [isabell@stardust ~]$
 
 Your domain needs to be setup:
@@ -59,10 +59,10 @@ You need to install a gem called Jekyll:
 ::
 
  [isabell@stardust ~]$ gem install bundler jekyll
- Fetching bundler-2.0.1.gem
- [...]
- Successfully installed jekyll-3.8.5
- 26 gems installed
+ Fetching bundler-2.2.18.gem
+ […]
+ Successfully installed jekyll-4.2.0
+ 27 gems installed
  [isabell@stardust ~]$
 
 Installation
@@ -87,7 +87,7 @@ After Jekyll finished, navigate into your website folder and install all needed 
 
  Fetching gem metadata from https://rubygems.org/...........
  [...]
- Bundle complete! 4 Gemfile dependencies, 29 gems now installed.
+ Bundle complete! 6 Gemfile dependencies, 31 gems now installed.
  Bundled gems are installed into `./vendor/bundle`
  [...]
 
